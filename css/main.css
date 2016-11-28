@@ -1,6 +1,43 @@
 *{
 	outline: 1px solid rgba(255, 0, 0, 0.4);
 }
+header{
+
+	background: url("../image/large.jpg") no-repeat;
+	background-size: cover;
+	height: 500px;
+	padding-top:50px;
+	opacity: 0.9;
+}
+.list-inline{
+	float:right;
+}
+ul li a{
+	color:white;
+}
+.phrase{
+	padding:115px;
+	margin-right: 200px;
+	margin-left: 200px;
+	color:white;
+
+}
+.header-banner{
+	background: rgba(75,134,247,0.78);
+}
+.boton{
+	color:white;
+	background: rgba(75,134,247,0.78);
+	opacity: 0.8;
+	border-radius: 5px;
+	width: 200px;
+	border:2px solid white;
+	height: 30px;
+	margin: 20px;
+}
+.flecha{
+	text-align: center;
+}
 
 .icon-container {
 	width: 150px;
@@ -9,7 +46,7 @@
 	line-height: 150px;
 	font-size: 60px;
 	text-align: center;
-	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2)
+	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2);
 	border-radius:200px;
 	color: skyblue;
 }
