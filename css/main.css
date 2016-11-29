@@ -1,16 +1,32 @@
-*{
+/**{
 	outline: 1px solid rgba(255, 0, 0, 0.4);
 }
+.fondo{
+	background: rgba(0,0,0,0.5);	
+}
+*/
+
 header{
 
 	background: url("../image/large.jpg") no-repeat;
 	background-size: cover;
 	height: 500px;
 	padding-top:50px;
-	opacity: 0.9;
+	
 }
+.linea{
+	height: 1px;
+	background: black;
+	text-align: center;
+}
+.separador{
+	position: relative;
+	top:-3.7em;
+}
+ 
 .list-inline{
 	float:right;
+
 }
 ul li a{
 	color:white;
@@ -50,9 +66,23 @@ ul li a{
 	border-radius:200px;
 	color: skyblue;
 }
+
 .logo2{
 	width: 330px;
 }
 h1 , h3{
 	color:skyblue;
+}
+.banner{
+	background: rgba(75,134,247,0.78);
+}
+.header-banner h3 p{
+	color:white;
+}
+.info-banner{
+	color:white;
+}
+footer{
+	background-color: #455E66;
+	color:white;
 }
