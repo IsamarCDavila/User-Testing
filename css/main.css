@@ -124,3 +124,38 @@ footer{
 	text-align:right;
 }
 
+@media screen and (max-width : 1000px) {
+	.container{
+		width: 100%;
+	}
+	header .phrase{
+		transform: translateY(-100px);
+	}
+	header .header-banner{
+		transform: translateY(-115px);
+	}
+	.list-inline{
+		display:none;
+	}
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.container{
+		width: 100%;
+	}
+	header .phrase{
+		width: 100%;
+		transform: translateY(-100px);
+	}
+	header .header-banner{
+		transform: translateY(-115px);
+	}
+	.list-inline{
+		display:none;
+	}
+	
+}
+
