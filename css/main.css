@@ -102,9 +102,18 @@ h5 p{
 .logo2{
 	width: 330px;
 }
-h1 , h3{
+h1 , h3 {
 	color:skyblue;
 }
+h5{
+	color:skyblue;
+	font-size: 20px;
+	text-align: center;
+}
+.info_icon{
+	text-align: center;
+}
+
 
 .banner{
 	background: rgba(75,134,247,0.78);
@@ -133,6 +142,7 @@ footer{
 	}
 	header .header-banner{
 		transform: translateY(-115px);
+		text-align: center;
 	}
 	.list-inline{
 		display:none;
@@ -141,21 +151,47 @@ footer{
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
 
 	.container{
 		width: 100%;
 	}
+	header .logo{
+		height: 30px;
+		margin:0 auto;
+	}
 	header .phrase{
+		margin-top: 10px;
 		width: 100%;
 		transform: translateY(-100px);
 	}
 	header .header-banner{
-		transform: translateY(-115px);
+		transform: translateY(-88px);
+		text-align: center;
 	}
 	.list-inline{
 		display:none;
+	}	
+}
+@media screen and (max-width: 491px){
+
+	.container{
+		width: 100%;
 	}
-	
+	header .logo{
+		height: 30px;
+		margin:0 auto;
+	}
+	header .phrase{
+		width: 100%;
+		transform: translateY(-90px);
+	}
+	header .header-banner{
+		transform: translateY(-117px);
+		text-align: center;
+	}
+	.list-inline{
+		display:none;
+	}	
 }
 
