@@ -73,3 +73,33 @@ textarea{
 	height:20px;
 	font-family:serif;
 }
+
+/* media*/
+
+						
+
+
+@media screen and (max-width:999px)
+{
+	body{
+		position: relative;
+		top:400px;
+		
+	}
+	.fondo{
+		margin:0 auto;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	body{
+		position: relative;
+		top:400px;
+		
+	}
+	.fondo{
+		margin:0 auto;
+	}
+}
+

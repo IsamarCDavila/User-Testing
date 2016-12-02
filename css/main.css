@@ -140,3 +140,59 @@ footer{
 	background-color: #455E66;
 	color:white;
 }
+
+						/* media*/
+
+						
+@media screen and (max-width:768px)
+{
+	.banner-info
+	{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.frase{
+		margin: 60px 0;
+	}
+	.frase h2{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:999px)
+{
+	.icon-blue
+	{
+		margin-left: -65px;
+
+	}
+	.pasos .col-pasos-info
+	{
+		background: none;
+	}
+	.pasos .row{
+		background-size: cover;
+	}
+	.pasos .pasos-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.tapita-azul .row>div
+	{
+		text-align: center;
+	}
+	.tapita-azul .row>div .img-responsive
+	{
+		display: inline-block;
+	}
+	.desktop-menu
+	{
+		text-align: center;
+	}
+}
